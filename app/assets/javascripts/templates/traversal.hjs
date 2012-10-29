@@ -1,0 +1,3 @@
+<hr/>
+  <p><a {{action goToContacts href=true}}>Go To Contacts</a>
+  {{outlet}}

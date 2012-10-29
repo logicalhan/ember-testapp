@@ -1,0 +1,6 @@
+
+  <ul>
+{{#each App.contacts}}
+  <li><a {{action showContact this href=true}}> {{fullName}} </a></li>
+{{/each}}
+</ul>

@@ -1,0 +1,4 @@
+ {{outlet greeting}}
+  <p {{bindAttr class="isSlogan"}} >Ember is: {{slogan}}</p>
+  {{outlet body}}
+  {{outlet footer}}
